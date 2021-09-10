@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Landed on dashboard]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-10T12:12:10 PKT" name="Suite" finished-at="2021-09-10T12:12:31 PKT" duration-ms="20476">
+    <groups>
+    </groups>
+    <test started-at="2021-09-10T12:12:10 PKT" name="Test" finished-at="2021-09-10T12:12:31 PKT" duration-ms="20476">
+      <class name="com.login.LoginScenarios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:10 PKT" name="SetUp" finished-at="2021-09-10T12:12:10 PKT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginEmptyTest()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:10 PKT" name="LoginEmptyTest" finished-at="2021-09-10T12:12:14 PKT" duration-ms="3465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEmptyTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:14 PKT" name="getResult" finished-at="2021-09-10T12:12:14 PKT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginEmptyTest status=SUCCESS method=LoginScenarios.LoginEmptyTest()[pri:0, instance:com.login.LoginScenarios@4de4b452] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:14 PKT" name="tearDown" finished-at="2021-09-10T12:12:14 PKT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LoginTest()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:14 PKT" name="LoginTest" finished-at="2021-09-10T12:12:18 PKT" duration-ms="4043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:18 PKT" name="getResult" finished-at="2021-09-10T12:12:18 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginScenarios.LoginTest()[pri:0, instance:com.login.LoginScenarios@4de4b452] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:18 PKT" name="tearDown" finished-at="2021-09-10T12:12:18 PKT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LogoutTest()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:18 PKT" name="LogoutTest" finished-at="2021-09-10T12:12:27 PKT" duration-ms="9020" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Landed on dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:27 PKT" name="getResult" finished-at="2021-09-10T12:12:27 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogoutTest status=SUCCESS method=LoginScenarios.LogoutTest()[pri:0, instance:com.login.LoginScenarios@4de4b452] output=Landed on dashboard]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:27 PKT" name="tearDown" finished-at="2021-09-10T12:12:27 PKT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="WrongPasswordTest()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:27 PKT" name="WrongPasswordTest" finished-at="2021-09-10T12:12:31 PKT" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPasswordTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:31 PKT" name="getResult" finished-at="2021-09-10T12:12:31 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WrongPasswordTest status=SUCCESS method=LoginScenarios.WrongPasswordTest()[pri:0, instance:com.login.LoginScenarios@4de4b452] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:31 PKT" name="tearDown" finished-at="2021-09-10T12:12:31 PKT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.login.LoginScenarios@4de4b452]" started-at="2021-09-10T12:12:31 PKT" name="tearDown" finished-at="2021-09-10T12:12:31 PKT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.login.LoginScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
