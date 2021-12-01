@@ -66,7 +66,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.close();
 
 	}
-
+/*
 	@Test
 	public void LoginTest() {
 		SoftAssert sf = new SoftAssert();
@@ -122,5 +122,5 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.quit();
 
 	}
-
+*/
 }
