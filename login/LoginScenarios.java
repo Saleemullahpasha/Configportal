@@ -66,7 +66,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.close();
 
 	}
-/*
+
 	@Test
 	public void LoginTest() {
 		SoftAssert sf = new SoftAssert();
@@ -78,7 +78,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.findElementByXPath("//*[@id=\"email\"]").sendKeys("ramzan@developer.com");
 		driver.findElementByXPath("//*[@id=\"password\"]").sendKeys("admin");
 		driver.findElementByXPath("//span[@class='MuiButton-label']").click();
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.urlContains("dashboard"));
 		sf.assertEquals(driver.getCurrentUrl(), "https://nstp-slmfrontend.evampsaanga.com/#/admin-dashboard");
 		driver.close();
@@ -122,6 +122,5 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.quit();
 
 	}
-*/
-}
 
+}
