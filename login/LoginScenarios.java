@@ -42,7 +42,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.close();
 
 	}
-/**
+	
 	@Test
 	public void LoginEmptyTest() {
 		test = extent.createTest("LoginEmptyTest", "Testing login with empty fields");
@@ -122,7 +122,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.quit();
 
 	}
-*/
+
 
 }
 
