@@ -42,7 +42,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.close();
 
 	}
-	
+
 	@Test
 	public void LoginEmptyTest() {
 		test = extent.createTest("LoginEmptyTest", "Testing login with empty fields");
@@ -94,7 +94,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		driver.findElementByXPath("//*[@id=\"email\"]").sendKeys("ramzan@developer.com");
 		driver.findElementByXPath("//*[@id=\"password\"]").sendKeys("admin");
 		driver.findElementByXPath("//span[@class='MuiButton-label']").click();
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 100);
 		wait.until(ExpectedConditions.urlContains("dashboard"));
 		driver.findElementByXPath("//*[@id=\"root\"]/div[2]/div[1]/div/div/h4").click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//main/h2")));
@@ -105,7 +105,7 @@ public class LoginScenarios extends ExtentReportBaseClass {
 		// driver.close();
 
 	}
-
+	
 	@Test
 	public void LogoutTest() {
 		test = extent.createTest("LogoutTest", "Testing Logout");
@@ -123,6 +123,4 @@ public class LoginScenarios extends ExtentReportBaseClass {
 
 	}
 
-
 }
-
